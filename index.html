@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <title>HTML-Tutorial</title>
+        <style>
+            body{
+                background-image:linear-gradient(to right,gray,black)
+            }
+            h1{
+                text-align: center;
+                color: white;
+                background-image: linear-gradient(to right,black,gray);
+                font-family:'Times New Roman', Times, serif;
+            }
+                
+            }
+            ul{
+                color: black;
+                list-style-type:square;
+            }
+            h3{
+                color:white;
+                background-image: linear-gradient(to right,black,gray);
+                font-family:'Times New Roman', Times, serif;
+            }
+            table,th,td{
+                border: 1px solid black;
+                color: whitesmoke;
+                border-color: black;
+                padding: 15px;
+                
+            }
+            #t1,#t2,#t3,#t4{
+                background-image: linear-gradient(to right,black,gray);;
+            }
+            h4{
+                color: white;
+                background-image: linear-gradient(to right,black,gray);
+                font-family:'Times New Roman', Times, serif;
+            }
+           h6{
+               color: white;
+               text-align: center;
+               font-size: medium;
+
+           }
+           ol{
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1><i>HTML-TUTORIAL</i></h1><hr>
+        <h3><i>History of HTML</i></h3>
+        <p style="color: white;"><b>The first version of HTML was written by Tim Berners-Lee in 1993. 
+            Since then, there have been many different versions of HTML. 
+            The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999.</b></p>
+        <img src="Tim.jfif" width="100px">
+        <br>
+        <h5><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a></h5>
+        <h5>Inventor of HTML</h5>
+        <hr>
+        <h3><i>What is HTML?</i></h3>
+        <ul style="color:white;">
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li> 
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul><hr>
+
+        <h3><em>HTML Basic Tags</em></h3>
+        <table id="t1">
+            <colgroup>
+                <col span = '3' style="background-image:linear-gradient(to left, blueviolet,rgb(0, 102, 255),rgb(23, 148, 148));">
+            </colgroup>
+            
+            <tr>
+                <th>Tags</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <th>&lt;html&gt;</th>
+                <th>Html Tag</th>
+                <th>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt; </th>
+            </tr>
+            <tr>
+                <th>&lt;body&gt;</th>
+                <th>Body Tag</th>
+                <th>The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;</th>
+            </tr>
+            <tr>
+                <th>&lt;head&gt;</th>
+                <th>Head Tag</th>
+                <th>The &lt;head&gt; tag in HTML is used to define the head portion of the document which contains information related to the document. </th>
+            </tr>
+            <tr>
+                <th>&lt;h1&gt;</th>
+                <th>Heading Tag:&lt;h1&gt; to &lt;h6&gt; </th>
+                <th>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</th>
+            </tr>
+            <tr>
+                <th>&lt;a&gt;</th>
+                <th>Anchor Tag</th>
+                <th>HTML links are defined with the &lt;a&gt; tag</th>
+            </tr>
+            <tr>
+                <th>&lt;img&gt;</th>
+                <th>Image Tag</th>
+                <th>HTML images are defined with the &lt;img&gt; tag</th>
+            </tr>
+        </table><br><hr>
+        <h3><i>HTML Formatting Tags</i></h3>
+        <table id="t2">
+            <colgroup>
+                <col span = '4' style="background-image:linear-gradient(to left, blueviolet,rgb(0, 102, 255),rgb(23, 148, 148));">
+            </colgroup>
+            <tr>
+              <th>Tags</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Example</th>  
+            </tr>
+            <tr>
+                <th>&lt;b&gt;</th>
+                <th>Bold Tag</th>
+                <th>The HTML &lt;b&gt; element defines bold text, without any extra importance.</th>
+                <th>
+                    <b>This is Bold</b></th>
+            </tr>
+            <tr>
+                <th>&lt;strong&gt;</th>
+                <th>Strong Tag</th>
+                <th>The HTML &lt;strong&gt; element defines text with strong importance. The content inside is typically displayed in bold.</th>
+                <th>This is <strong>Bold</strong></th>
+            </tr>
+            <tr>
+                <th>&lt;i&gt;</th>
+                <th>Italic Tag</th>
+                <th>The HTML &lt;i&gt; element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</th>
+                <th><i>This is italic</i></th>
+            </tr>
+            <tr>
+                <th>&lt;em&gt;</th>
+                <th>Emphasized Tag</th>
+                <th>The HTML &lt;em&gt; element defines emphasized text. The content inside is typically displayed in italic.</th>
+                <th><em>This is emphasized</em></th>
+            </tr>
+            <tr>
+                <th>&lt;small&gt;</th>
+                <th>Small Tag</th>
+                <th>The HTML &lt;small&gt; element defines smaller text</th>
+                <th><small>This is Small</small></th>
+            </tr>
+            <tr>
+                <th>&lt;mark&gt;</th>
+                <th>Mark Tag</th>
+                <th>The HTML &lt;mark&gt; element defines text that should be marked or highlighted</th>
+                <th>This is a <mark >important</mark> note</th>
+            </tr>
+            <tr>
+                <th>&lt;del&gt;</th>
+                <th>Delete Tag</th>
+                <th>The HTML &lt;del&gt; element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text</th>
+                <th>This is a <del>important</del> note</th>
+            </tr>
+            <tr>
+                <th>&lt;ins&gt;</th>
+                <th>Underline Tag</th>
+                <th>The HTML &lt;ins&gt; element defines a text that has been inserted into a document. Browsers will usually underline inserted text</th>
+                <th>This is a <ins>important</ins> note</th>
+            </tr>
+            <tr>
+                <th>&lt;sub&gt;</th>
+                <th>Subscript Tag</th>
+                <th>The HTML &lt;sub&gt;  element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas</th>
+                <th>Water - H<sub>2</sub>O</th>
+            </tr>
+            <tr>
+                <th>&lt;sup&gt;</th>
+                <th>Superscript Tag</th>
+                <th>The HTML &lt;sup&gt; element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.</th>
+                <th>I Won 1<sup>st</sup> Prize</th>
+            </tr>
+            <tr>
+                <th>&lt;q&gt;</th>
+                <th>Quotation Tag</th>
+                <th>The &lt;q&gt; tag defines a short quotation.</th>
+                <th>HTML-<q>Hyper Text Markup Language</q></th>
+            </tr>
+            <tr>
+                <th>&lt;pre&gt;</th>
+                <th>Preformatted Tag</th>
+                <th>The &lt;pre&gt; tag in HTML is used to define the block of preformatted text which preserves the text spaces, line breaks, tabs, and other formatting characters which are ignored by web browsers.</th>
+                <th>
+                    <pre>I Learn to love HTML.
+                     HtML is easy to Learn.
+                         Notepad++ or Vscode is used to edit HTML code</pre>
+                </th>
+            </tr>
+        </table><hr>
+        <a href="next.html" >Next Page-></a><hr>
+        <h6><i>Website Created By S.Pravin Kumar(19CSR144)</i></h6>
+
+    </body>
+</html>

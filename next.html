@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title>HTML-Tutorial</title>
+        <meta http-equiv="refresh" content="30">
+        <style>
+            body{
+                background-image:linear-gradient(to right,gray,black)
+            }
+            h1{
+                text-align: center;
+                color: white;
+                background-image: linear-gradient(to right,black,gray);
+                font-family:'Times New Roman', Times, serif;
+            }
+                
+            }
+            ul{
+                color: black;
+                list-style-type:square;
+            }
+            h3{
+                color:white;
+                background-image: linear-gradient(to right,black,gray);
+                font-family:'Times New Roman', Times, serif;
+            }
+            table,th,td{
+                border: 1px solid black;
+                color: whitesmoke;
+                border-color: black;
+                padding: 15px;
+                
+            }
+            #t1,#t2,#t3,#t4{
+                background-image: linear-gradient(to right,black,gray);;
+            }
+            h4{
+                color: white;
+                background-image: linear-gradient(to right,black,gray);
+                font-family:'Times New Roman', Times, serif;
+            }
+           h6{
+               color: white;
+               text-align: center;
+               font-size: medium;
+
+           }
+           ol{
+                color: white;
+            }
+            p{
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h3><i>HTML Lists</i></h3>
+        <p style="color:white;">Two Types of Lists</p>
+        <ol>
+            <li>Ordered List</li>
+            <li>Unordered List</li>
+        </ol>
+        <h3>Type Of Ordered List</h3>
+        <table id="t3">
+            <colgroup>
+                <col span = '4' style="background-image:linear-gradient(to left, blueviolet,rgb(0, 102, 255),rgb(23, 148, 148));">
+            </colgroup>
+            <tr>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <th>Type="1"</th>
+                <th>The list items will be numbered with numbers (default)</th>
+                <th>
+                    <ol type="1">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                      </ol>
+                </th>
+            </tr>
+            <tr>
+                <th>Type="A"</th>
+                <th>The list items will be numbered with uppercase letters</th>
+                <th>
+                    <ol type="A">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                      </ol>
+                </th>
+            </tr>
+            <tr>
+                <th>Type="a"</th>
+                <th>The list items will be numbered with lowercase letters</th>
+                <th>
+                    <ol type="a">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ol>
+                </th>
+            </tr>
+            <tr>
+                <th>Type="I"</th>
+                <th>The list items will be numbered with uppercase roman numbers</th>
+                <th>
+                    <ol type="I">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ol>
+                </th>
+            </tr>
+            <tr>
+                <th>Type="i"</th>
+                <th>The list items will be numbered with lowercase roman numbers</th>
+                <th>
+                    <ol type="i">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ol>
+                </th>
+            </tr>
+        </table>
+    <h3>Type of Unordered List</h3>   
+    <table id="t4">
+        <colgroup>
+            <col span = '4' style="background-image:linear-gradient(to left, blueviolet,rgb(0, 102, 255),rgb(23, 148, 148));">
+        </colgroup>
+        <tr>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <th>Type="Disc"</th>
+            <th>This is the default style. In this style, the list items are marked with bullets.</th>
+            <th>
+                <ul type="Disc">  
+                    <li>HTML</li>  
+                    <li>Java</li>  
+                    <li>JavaScript</li>   
+                   </ul>  
+            </th>
+        </tr>
+        <tr>
+            <th>Type="circle"</th>
+            <th>In this style, the list items are marked with circles.</th>
+            <th>
+                <ul type="circle">  
+                    <li>HTML</li>  
+                    <li>Java</li>  
+                    <li>JavaScript</li>   
+                   </ul>  
+            </th>
+        </tr>
+        <tr>
+            <th>Type="square"</th>
+            <th>In this style, the list items are marked with squares.</th>
+            <th>
+                <ul type="square">  
+                    <li>HTML</li>  
+                    <li>Java</li>  
+                    <li>JavaScript</li>   
+                   </ul>  
+            </th>
+        </tr>
+        <tr>
+            <th>Type="none"</th>
+            <th>In this style, the list items are not marked .</th>
+            <th>
+                <ul type="none">  
+                    <li>HTML</li>  
+                    <li>Java</li>  
+                    <li>JavaScript</li>   
+                   </ul>  
+            </th>
+        </tr>
+    </table>
+    <h3>Nested List</h3>
+    <p>A nested list or a sublist is a list within a list. The trick to marking nested lists up correctly in HTML is to recognize that the sublist is actually a child of a list item and not of a list.</p>
+    <p>Example</p>
+    <ul>
+        <li>Fruit
+          <ul>
+            <li>Bananas</li>
+            <li>Apples
+              <ul>
+                <li>Green</li>
+                <li>Red</li>
+              </ul>
+            </li>
+            <li>Pears</li>
+          </ul>
+        </li>
+        <li>Vegetables</li>
+        <li>Meat</li>
+      </ul>
+
+        <hr>
+            <a href="index.html"> <-Previous page </a>
+            <br>
+            <hr><br>
+
+        <h6><i>Website Created By S.Pravin Kumar(19CSR144)</i></h6>
+
+    </body>
+</html>
